@@ -32,5 +32,5 @@ for github_filename, dependency_filename in zip(github_repo_filenames, dependenc
         url=github_download_url.format(shared_library_version, github_filename)
     )
 
-    with open(f"../msp_tls_client/dependencies/{dependency_filename}", "wb") as f:
+    with open(f"../MSP-TLS-Client/dependencies/{dependency_filename}", "wb") as f:
         f.write(response.content)
