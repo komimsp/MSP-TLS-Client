@@ -45,7 +45,7 @@ class Session:
         # Case-insensitive dictionary of headers, send on each request
         self.headers = CaseInsensitiveDict(
             {
-                "User-Agent": f"msp-tls-client/{__version__}",
+                "User-Agent": f"MSP-TLS-Client/{__version__}",
                 "Accept-Encoding": "gzip, deflate, br",
                 "Accept": "*/*",
                 "Connection": "keep-alive",
