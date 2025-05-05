@@ -25,10 +25,11 @@ class DownloadBinaryCommand(Command):
         architecture = platform.architecture()[0]
         
         URLS = {
-            'Win32': 'https://github.com/xerusmsp/msp-tls-client/releases/download/0.1.0/tls-client-32.dll',
-            'Win64': 'https://github.com/xerusmsp/msp-tls-client/releases/download/0.1.0/tls-client-64.dll',
-            # 'DarwinArm64': '',
-            # 'Darwinx86': ''
+            'Win32': 'https://github.com/komimsp/msp-tls-client/releases/download/0.1.0/tls-client-32.dll',
+            'Win64': 'https://github.com/komimsp/msp-tls-client/releases/download/0.1.0/tls-client-64.dll',
+            'Linux32': 'https://github.com/komimsp/msp-tls-client/releases/download/0.1.0/tls-client-amd64.so',
+            'Linux64': 'https://github.com/komimsp/msp-tls-client/releases/download/0.1.0/tls-client-arm64.so',
+             'Linux64': 'https://github.com/komimsp/msp-tls-client/releases/download/0.1.0/tls-client-x86.so',
         }
 
         if os_type == 'Windows':
