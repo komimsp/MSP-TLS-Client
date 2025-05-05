@@ -93,7 +93,7 @@ setup(
         "Topic :: Software Development :: Libraries",
     ],
     project_urls={
-        "Source": "https://github.com/xerusmsp/msp-tls-client",
+        "Source": "https://github.com/komimsp/MSP-TLS-Client",
     },
     cmdclass={
         'download_binary': DownloadBinaryCommand,
